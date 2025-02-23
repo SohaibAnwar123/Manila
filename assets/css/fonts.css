@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Bold.eot");
+  src: url("../fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Regular.eot");
+  src: url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Light.eot");
+  src: url("../fonts/Lato-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Light.woff2") format("woff2"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto';
+  src: url("../fonts/NotoSansJP-Bold-Alphabetic.eot");
+  src: url("../fonts/NotoSansJP-Bold-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansJP-Bold-Alphabetic.woff2") format("woff2"), url("../fonts/NotoSansJP-Bold-Alphabetic.woff") format("woff"), url("../fonts/NotoSansJP-Bold-Alphabetic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto';
+  src: url("../fonts/NotoSansJP-Light-Alphabetic.eot");
+  src: url("../fonts/NotoSansJP-Light-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansJP-Light-Alphabetic.woff2") format("woff2"), url("../fonts/NotoSansJP-Light-Alphabetic.woff") format("woff"), url("../fonts/NotoSansJP-Light-Alphabetic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto';
+  src: url("../fonts/NotoSansJP-Medium-Alphabetic.eot");
+  src: url("../fonts/NotoSansJP-Medium-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansJP-Medium-Alphabetic.woff2") format("woff2"), url("../fonts/NotoSansJP-Medium-Alphabetic.woff") format("woff"), url("../fonts/NotoSansJP-Medium-Alphabetic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto';
+  src: url("../fonts/NotoSansJP-Regular-Alphabetic.eot");
+  src: url("../fonts/NotoSansJP-Regular-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansJP-Regular-Alphabetic.woff2") format("woff2"), url("../fonts/NotoSansJP-Regular-Alphabetic.woff") format("woff"), url("../fonts/NotoSansJP-Regular-Alphabetic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto';
+  src: url("../fonts/NotoSansJP-Thin-Alphabetic.eot");
+  src: url("../fonts/NotoSansJP-Thin-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansJP-Thin-Alphabetic.woff2") format("woff2"), url("../fonts/NotoSansJP-Thin-Alphabetic.woff") format("woff"), url("../fonts/NotoSansJP-Thin-Alphabetic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galada';
+  src: url("../fonts/Galada-Regular.eot");
+  src: url("../fonts/Galada-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Galada-Regular.woff2") format("woff2"), url("../fonts/Galada-Regular.woff") format("woff"), url("../fonts/Galada-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galada';
+  src: url("../fonts/Galada-Regular_1.eot");
+  src: url("../fonts/Galada-Regular_1.eot?#iefix") format("embedded-opentype"), url("../fonts/Galada-Regular_1.woff2") format("woff2"), url("../fonts/Galada-Regular_1.woff") format("woff"), url("../fonts/Galada-Regular_1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cantata One';
+  src: url("CantataOne-Regular.eot");
+  src: url("CantataOne-Regular.eot?#iefix") format("embedded-opentype"), url("CantataOne-Regular.woff2") format("woff2"), url("CantataOne-Regular.woff") format("woff"), url("CantataOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,916 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Noto';
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus-visible {
+  outline: none;
+}
+
+a:hover {
+  color: unset;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.container {
+  max-width: 1330px;
+  width: 100%;
+}
+
+.flex_align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex_bt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar_wrapper {
+  background-color: #F7EFCA;
+}
+
+.navbar_wrapper .navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar_wrapper .navbar-brand img {
+  max-width: 179px;
+  width: 100%;
+}
+
+.navbar_wrapper .navbar-toggler {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.main_title {
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 90px;
+  text-align: center;
+  color: #000000;
+}
+
+.main_detail {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  text-align: center;
+  color: #000000;
+}
+
+.mb_30 {
+  margin-bottom: 30px;
+}
+
+.mb_10 {
+  margin-bottom: 10px;
+}
+
+.prmo_title {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 93px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #027A87;
+  padding-top: 10px;
+}
+
+.hero_wrapper {
+  background-color: #F7EFCA;
+  padding: 50px 0;
+  margin-top: -9px;
+}
+
+.tour_promo .promo_inner {
+  padding: 50px 0;
+}
+
+.tour_promo .main_detail {
+  font-size: 36px;
+  line-height: 43px;
+  font-family: 'Lato';
+}
+
+.take_trip {
+  background-image: url("../img/make_trip.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 130px 0;
+}
+
+.take_trip .main_title {
+  font-family: 'Galada';
+  max-width: 830px;
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 95px;
+}
+
+.influencer_wrap {
+  background-image: url("../img/influencer_bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.influencer_wrap .influencer_inner {
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.influencer_wrap .influencer_title {
+  font-family: 'Cantata One';
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 70px;
+  text-align: center;
+  color: #000000;
+}
+
+.influencer_wrap .influencer_detail {
+  font-family: 'Cantata One';
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.influencer_wrap .map_link {
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+
+.influencer_wrap .day_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.influencer_wrap .day_box {
+  text-align: center;
+  max-width: 409px;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 20px;
+  padding-bottom: 30px;
+}
+
+.influencer_wrap .day_box .main_detail {
+  font-size: 36px;
+  line-height: 46px;
+  font-family: 'Cantata One';
+}
+
+.influencer_wrap .day_box p {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Cantata One';
+}
+
+.creators_wrap {
+  position: relative;
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+
+.creators_wrap .slick-dots {
+  bottom: -85px;
+}
+
+.creators_wrap .creater_img {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0px);
+          transform: translate(-50%, 0px);
+}
+
+.creators_wrap .main_title {
+  font-family: 'Galada';
+}
+
+.creator_slider {
+  margin-top: 50px;
+}
+
+.creator_slider .slick-dots li button:before {
+  font-size: 35px;
+}
+
+.creator_slider img {
+  margin: 0 auto;
+}
+
+.day1_trip {
+  background-image: url("../img/tour_img.svg");
+  height: 540px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+
+.day1_trip.day2_trip {
+  background-image: url("../img/tour_img2.png");
+}
+
+.day1_trip.day3_trip {
+  background-image: url("../img/tour_img3.png");
+}
+
+.day1_trip.day4_trip {
+  background-image: url("../img/tour_img4.png");
+}
+
+.day1_trip.day5_trip {
+  background-image: url("../img/tour_img5.png");
+}
+
+.day1_trip.day6_trip {
+  background-image: url("../img/tour_img6.png");
+}
+
+.day1_trip.day7_trip {
+  background-image: url("../img/tour_img7.png");
+}
+
+.post_wrap {
+  padding: 50px 0;
+}
+
+.post_wrap .yellow_underline {
+  background-color: #FAFF00;
+  height: 15px;
+  max-width: 920px;
+  width: 100%;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: -1;
+}
+
+.post_wrap .post_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px 0;
+}
+
+.post_wrap .post_content {
+  max-width: 550px;
+  width: 100%;
+}
+
+.post_wrap .post_img {
+  max-width: 600px;
+  width: 100%;
+}
+
+.post_wrap .post_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.post_video {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.post_lg {
+  max-width: 1130px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.post_title {
+  font-size: 50px;
+  line-height: 80px;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+  position: relative;
+}
+
+.post_detail {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  font-family: 'Lato';
+  color: #000000;
+}
+
+.post_detail a {
+  border-bottom: 1px solid #000;
+}
+
+.fav_memory {
+  background-image: url("../img/memory_bg.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.fav_memory .main_title {
+  font-family: 'Galada';
+  color: #027A87;
+}
+
+.fav_memory .memory_inner {
+  gap: 70px;
+  margin-top: 50px;
+}
+
+.memory_img {
+  max-width: 333px;
+  width: 100%;
+}
+
+.memory_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.star_wrap .main_detail {
+  margin: 50px 0;
+}
+
+.star_wrap .star_imgz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.star_wrap .star_img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.footer_wrap {
+  background: #80808061;
+}
+
+.footer_wrap .footer_inner {
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_wrap .footer_inner p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #101072e6;
+  margin-bottom: 5px;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.footer_wrap .footer_inner i {
+  font-size: 15px;
+}
+
+.footer_wrap .footer_inner .footer_content {
+  border-left: 1px solid #80808099;
+  padding-left: 10px;
+}
+
+.footer_wrap .footer_inner ul {
+  list-style-type: "- ";
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #101072e6;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.footer_wrap .footer_inner ul li {
+  margin-bottom: 5px;
+}
+
+.footer_end {
+  padding-top: 40px;
+}
+
+.footer_lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.footer_lower p {
+  font-weight: 700;
+  color: #000;
+}
+
+.footer_lower span {
+  color: #000;
+}
+
+.footer_lower a {
+  color: #000;
+}
+
+.footer_lower .clr_blue {
+  color: #0d6efdb5;
+}
+
+.footer_bar {
+  background-color: #101072e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.footer_bar p {
+  color: #fff;
+  border-right: 1px solid #fff;
+  padding-right: 20px;
+}
+
+.footer_bar .no_border {
+  border: none;
+}
+
+@media (max-width: 1199.98px) {
+  .post_wrap .post_content {
+    max-width: 100%;
+  }
+  .main_title {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .hero_wrapper {
+    padding: 25px 0;
+  }
+  .main_detail {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .prmo_title {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .tour_promo .promo_inner {
+    padding: 30px 0;
+  }
+  .tour_promo .main_detail {
+    font-size: 25px;
+    line-height: 38px;
+  }
+  .mb_30 {
+    margin-bottom: 20px;
+  }
+  .take_trip .main_title {
+    font-size: 60px;
+  }
+  .influencer_wrap {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .influencer_wrap .influencer_title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .influencer_wrap .influencer_detail {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  .influencer_wrap .map_link {
+    padding: 15px;
+    margin-bottom: 50px;
+  }
+  .creators_wrap .creater_img {
+    top: -45px;
+  }
+  .creators_wrap .creater_img img {
+    max-width: 400px;
+    width: 100%;
+  }
+  .day1_trip {
+    height: 385px;
+  }
+  .post_wrap {
+    padding: 30px 0;
+  }
+  .post_title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .post_wrap .yellow_underline {
+    height: 8px;
+    max-width: 800px;
+    bottom: 10px;
+  }
+  .post_detail {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  .post_wrap .post_inner {
+    gap: 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .post_lg {
+    max-width: 900px;
+  }
+  .star_wrap .main_detail {
+    margin: 30px 0;
+  }
+  .star_wrap .star_img {
+    max-width: 260px;
+  }
+  .footer_wrap .footer_inner {
+    padding: 30px 0;
+    max-width: 950px;
+    width: 100%;
+  }
+  .footer_wrap .footer_inner ul {
+    padding-left: 15px;
+  }
+  .footer_bar p {
+    padding-right: 10px;
+    font-size: 15px;
+  }
+  .footer_bar {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .footer_end {
+    padding-top: 20px;
+  }
+  .footer_lower .lower_content {
+    max-width: 400px;
+    width: 100%;
+  }
+  .footer_lower {
+    padding: 20px 0;
+    gap: 20px;
+  }
+  .footer_bar {
+    gap: 10px;
+    text-align: center;
+  }
+  .footer_bar p {
+    line-height: 16px;
+  }
+  .footer_wrap .footer_inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .star_wrap .star_img {
+    max-width: 190px;
+  }
+  .main_detail {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .star_wrap .main_detail {
+    margin: 10px 0;
+  }
+  .tour_promo .main_detail {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .tour_promo .promo_inner {
+    padding: 20px 0;
+  }
+  .prmo_title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .day1_trip {
+    height: 270px;
+    background-size: cover;
+  }
+  .take_trip .main_title {
+    font-size: 50px;
+  }
+  .fav_memory .memory_inner {
+    gap: 30px;
+    margin-top: 0px;
+  }
+  .memory_img {
+    max-width: 290px;
+  }
+  .main_title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .post_detail {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .mb_30 {
+    margin-bottom: 10px;
+  }
+  .post_video {
+    max-width: 660px;
+  }
+  .post_title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .post_wrap .yellow_underline {
+    height: 5px;
+    max-width: 650px;
+  }
+  .fav_memory {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .post_lg {
+    max-width: 700px;
+  }
+  .creators_wrap .creater_img img {
+    max-width: 360px;
+  }
+  .creators_wrap {
+    padding-top: 155px;
+    padding-bottom: 79px;
+  }
+  .influencer_wrap .day_box {
+    max-width: 340px;
+    padding: 5px 15px;
+    padding-bottom: 20px;
+  }
+  .influencer_wrap .day_box .main_detail {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .influencer_wrap .influencer_title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .influencer_wrap .influencer_detail {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 16px;
+  }
+  .take_trip {
+    padding: 90px 0;
+  }
+  .navbar_wrapper .navbar-brand img {
+    max-width: 150px;
+  }
+  .navbar_wrapper .navbar-toggler img {
+    width: 45px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar_wrapper .navbar-brand img {
+    max-width: 95px;
+  }
+  .navbar_wrapper .navbar-toggler img {
+    width: 30px;
+  }
+  .navbar_wrapper .navbar {
+    padding: 3px 0;
+  }
+  .main_title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .main_detail {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .prmo_title {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 5px;
+  }
+  .tour_promo .main_detail {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .take_trip .main_title {
+    font-size: 25px;
+  }
+  .take_trip {
+    padding: 50px 0;
+  }
+  .influencer_wrap {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .influencer_wrap .influencer_title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .influencer_wrap .influencer_detail {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .influencer_wrap .map_link {
+    padding: 8px;
+    margin-bottom: 25px;
+  }
+  .influencer_wrap .day_box .main_detail {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .influencer_wrap .day_box p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .influencer_wrap .day_inner {
+    gap: 20px 0px;
+  }
+  .creators_wrap .creater_img {
+    top: -30px;
+  }
+  .creators_wrap {
+    padding-top: 90px;
+    padding-bottom: 65px;
+  }
+  .day1_trip {
+    height: 140px;
+    background-size: contain;
+    padding: 0 !important;
+  }
+  .creators_wrap .slick-dots {
+    bottom: -55px;
+  }
+  .post_wrap {
+    padding: 20px 0;
+  }
+  .post_title {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .post_detail {
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 340px;
+    width: 100%;
+    overflow-wrap: break-word;
+  }
+  .post_wrap .post_inner {
+    margin: 20px 0;
+    gap: 20px;
+  }
+  .fav_memory .memory_inner {
+    gap: 20px;
+  }
+  .memory_img {
+    max-width: 140px;
+  }
+  .star_wrap .star_inner img {
+    width: 30px;
+  }
+  .star_wrap .star_img {
+    max-width: 100px;
+  }
+  .star_wrap .star_imgz {
+    gap: 30px;
+  }
+  .footer_wrap .footer_inner {
+    gap: 30px;
+    padding: 20px 0;
+  }
+  .footer_wrap .footer_inner p {
+    font-size: 16px;
+  }
+  .footer_wrap .footer_inner ul {
+    font-size: 16px;
+  }
+  .footer_logo img {
+    max-width: 120px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer_lower {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer_bar {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100%;
+    padding: 10px 0;
+  }
+  .footer_bar .no_border {
+    border-right: 1px solid #fff;
+  }
+}
